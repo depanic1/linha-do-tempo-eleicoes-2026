@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-noite: #0b0b0c;
+  --color-carvao: #141416;
+  --color-grafite: #1d1d20;
+  --color-linha: #2a2a2e;
+  --color-cinza: #8a8a90;
+  --color-nevoa: #c9c9ce;
+  --color-papel: #f4f4f2;
+  --color-amarelo: #ffd60a;
+  --color-alerta: #ff9f43;
+
+  --font-titulo: "Anton", "Impact", "Arial Narrow", sans-serif;
+  --font-corpo: "Inter Tight Variable", "Inter Tight", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    background: var(--color-noite);
+    color: var(--color-papel);
+    font-family: var(--font-corpo);
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: var(--color-noite);
+    min-height: 100vh;
+  }
+  ::selection {
+    background: var(--color-amarelo);
+    color: var(--color-noite);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-amarelo);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+@utility titulo {
+  font-family: var(--font-titulo);
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  line-height: 1.06; /* espaço para acentos em caixa alta (Ã, Ç, Í) */
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Textura de grão: SVG de ruído, fixo, por cima de tudo, sem capturar cliques */
+.grao {
+  position: fixed;
+  inset: -50%;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Vinheta suave nas bordas, clima de estúdio */
+.vinheta {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(120% 80% at 50% 0%, rgba(255, 214, 10, 0.06), transparent 55%),
+    radial-gradient(100% 100% at 50% 100%, rgba(0, 0, 0, 0.6), transparent 60%);
+}
+
+/* Faixas listradas para as zonas seguras do modo live (só aparecem com G) */
+.zona-segura {
+  background: repeating-linear-gradient(-45deg, rgba(255, 60, 60, 0.18) 0 14px, rgba(255, 60, 60, 0.05) 14px 28px);
+  outline: 2px dashed rgba(255, 80, 80, 0.7);
+  outline-offset: -2px;
+}

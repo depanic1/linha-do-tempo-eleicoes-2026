@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "titulo": "Linha do Tempo — Eleições 2026",
+    "atualizadoEm": "2026-10-21T12:00:00-03:00",
+    "inicio": "2026-08-16",
+    "fim": "2026-10-25",
+    "aberturaUrnas2T": "2026-10-25T08:00:00-03:00",
+    "fechamentoUrnas2T": "2026-10-25T17:00:00-03:00",
+    "marcos": [
+      { "data": "2026-08-16", "rotulo": "Começa a campanha" },
+      { "data": "2026-08-28", "rotulo": "Começa a propaganda na TV", "curto": "TV" },
+      { "data": "2026-10-04", "rotulo": "1º turno" },
+      { "data": "2026-10-25", "rotulo": "2º turno" }
+    ],
+    "calendarioFonte": {
+      "veiculo": "TSE",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-confira-as-principais-datas-do-calendario-eleitoral"
+    }
+  },
+  "primeiroTurno": {
+    "data": "2026-10-04",
+    "apuradas": "100%",
+    "candidatos": [
+      { "nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 47.03, "votos": 56104503, "segundoTurno": true },
+      { "nome": "Lula", "partido": "PT", "percentual": 45.16, "votos": 53879538, "segundoTurno": true },
+      { "nome": "Augusto Cury", "partido": "Avante", "percentual": 2.89, "votos": 3448569 },
+      { "nome": "Renan Santos", "partido": "Missão", "percentual": 2.24, "votos": 2675887 },
+      { "nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 2.18, "votos": 2605148 },
+      { "nome": "Romeu Zema", "partido": "Novo", "percentual": 0.27, "votos": 326488 },
+      { "nome": "Outros 6 candidatos", "percentual": 0.21, "votos": 260655 }
+    ],
+    "observacao": "Abstenção: 21,08%. Brancos: 1,84% e nulos: 2,93% de quem foi votar.",
+    "fontes": [
+      { "veiculo": "TSE", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica" },
+      { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-tem-menor-diferenca-em-1o-turno-desde-redemocratizacao/" }
+    ],
+    "verificado": false
+  },
+  "segundoTurno": null,
+  "eventos": [
+    {
+      "id": "2026-08-16-largada",
+      "data": "2026-08-16",
+      "titulo": "Começa a campanha: Lula em São Bernardo, Flávio em Copacabana",
+      "resumo": "No primeiro dia de campanha liberada, Lula fez ato no Estádio 1º de Maio, em São Bernardo do Campo (SP). Flávio Bolsonaro fez ato na praia de Copacabana, no Rio.",
+      "categoria": "agenda",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-abre-campanha-em-estadio-que-marcou-sua-trajetoria-sindical/" },
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-flavio-em-copacabana-reune-89-mil-pessoas-no-rio-estima-usp/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-08-16-frase-lula-favela",
+      "data": "2026-08-16",
+      "titulo": "…todo mundo que se acha dono de uma favela ou de um bairro pobre",
+      "resumo": "Trecho do discurso de abertura da campanha, ao dizer quem pretende prender na área de segurança pública.",
+      "categoria": "frase",
+      "autor": "Lula, em São Bernardo do Campo",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-diz-que-vai-prender-quem-se-acha-dono-de-favela/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-08-23-debate-band",
+      "data": "2026-08-23",
+      "hora": "20:00",
+      "titulo": "Primeiro debate tem só 3 candidatos; Lula e Flávio faltam",
+      "resumo": "A Band reuniu Ronaldo Caiado, Renan Santos e Augusto Cury. Lula, Flávio Bolsonaro e Romeu Zema não foram.",
+      "categoria": "debate",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/em-debate-esvaziado-na-band-renan-caiado-e-cury-miram-lula-e-flavio/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-08-27-jn-lula",
+      "data": "2026-08-27",
+      "titulo": "Lula é entrevistado no Jornal Nacional",
+      "resumo": "A TV Globo fez entrevistas com os candidatos a presidente. Lula foi o entrevistado desta quinta-feira.",
+      "categoria": "agenda",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/lula-pede-direito-de-resposta-no-jn-apos-declaracoes-de-flavio/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-08-28-horario-eleitoral",
+      "data": "2026-08-28",
+      "titulo": "Horário eleitoral começa no rádio e na TV",
+      "resumo": "A propaganda gratuita do 1º turno vai até 1º de outubro. Os programas de presidente estreiam no sábado (29).",
+      "categoria": "agenda",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "TSE", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/eleicoes-2026-horario-eleitoral-gratuito-comeca-nesta-sexta-feira-28-1" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/horario-eleitoral-comeca-no-radio-e-na-tv-nesta-sexta-feira-28/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-08-28-jn-flavio",
+      "data": "2026-08-28",
+      "titulo": "Flávio Bolsonaro é entrevistado na TV Globo",
+      "resumo": "A entrevista foi exibida depois do Jornal Nacional desta sexta-feira.",
+      "categoria": "agenda",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/lula-pede-direito-de-resposta-no-jn-apos-declaracoes-de-flavio/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-08-31-direito-resposta-jn",
+      "data": "2026-08-31",
+      "titulo": "Campanha de Lula pede direito de resposta por falas de Flávio na Globo",
+      "resumo": "A coligação de Lula diz que Flávio fez declarações falsas sobre urnas, 8 de Janeiro e outros temas. O pedido foi ao TSE e inclui a TV Globo.",
+      "categoria": "justica-eleitoral",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/lula-pede-direito-de-resposta-no-jn-apos-declaracoes-de-flavio/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-09-04-tse-homologa",
+      "data": "2026-09-04",
+      "titulo": "TSE aprova lista de 13 candidaturas a presidente",
+      "resumo": "Pablo Marçal (PRTB) entra na lista, mas com o registro ainda em análise na Justiça.",
+      "categoria": "justica-eleitoral",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-homologa-13-candidaturas-a-presidencia-pablo-marcal-concorrera/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-09-07-quaest",
+      "data": "2026-09-07",
+      "hora": "18:02",
+      "titulo": "Quaest: Lula tem 36% e Flávio, 29% no 1º turno",
+      "resumo": "Pesquisa com 2.004 entrevistas. A margem de erro é de 2 pontos.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Lula", "valor": "36%" },
+        { "rotulo": "Flávio Bolsonaro", "valor": "29%" },
+        { "rotulo": "Augusto Cury", "valor": "8%" },
+        { "rotulo": "Ronaldo Caiado", "valor": "3%" },
+        { "rotulo": "Renan Santos", "valor": "3%" }
+      ],
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-1o-turno-lula-tem-36-flavio-29-e-cury-8/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-09-11-tse-marcal",
+      "data": "2026-09-11",
+      "titulo": "TSE barra a candidatura de Pablo Marçal",
+      "resumo": "O tribunal entendeu que ele está inelegível até 2032, por condenação ligada à eleição de 2024 em São Paulo. Também apontou que a filiação ao PRTB não foi comprovada no prazo.",
+      "categoria": "justica-eleitoral",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-rejeita-registro-de-candidatura-de-marcal-a-presidencia/" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/tse-forma-maioria-para-rejeitar-candidatura-de-pablo-marcal-a-presidencia/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-09-17-atlas",
+      "data": "2026-09-17",
+      "titulo": "AtlasIntel: Flávio e Lula empatados num 2º turno",
+      "resumo": "No 1º turno, Lula aparece com 44,1% e Flávio com 41,7%. A margem de erro é de 1 ponto.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro (2º turno)", "valor": "47,2%" },
+        { "rotulo": "Lula (2º turno)", "valor": "46,8%" }
+      ],
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-472-contra-468-de-lula-no-2o-turno-diz-pesquisa/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-09-23-record-cancela",
+      "data": "2026-09-23",
+      "titulo": "Record cancela o debate do dia 27",
+      "resumo": "Lula e Flávio avisaram que não iriam. Antes, o debate do dia 14, de um consórcio de veículos, também tinha sido cancelado pelo mesmo motivo.",
+      "categoria": "debate",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-midia/sem-lula-nem-flavio-record-cancela-debate-do-dia-27/" },
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/com-justica-melando-encontro-na-globo-2026-teve-1-debate-presidencial/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-09-30-lula-desiste-globo",
+      "data": "2026-09-30",
+      "titulo": "Lula avisa que não vai ao debate da Globo",
+      "resumo": "A campanha avalia que ele seria o principal alvo dos adversários. Flávio diz que vai e desafia Lula a ir também.",
+      "categoria": "debate",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-desiste-de-ir-ao-debate-da-tv-globo/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-01-globo-cancela",
+      "data": "2026-10-01",
+      "titulo": "Globo cancela debate horas antes, após decisões da Justiça",
+      "resumo": "O TSE proibiu a cadeira vazia para Lula e o ministro Gilmar Mendes, do STF, mandou incluir Renan Santos. É o primeiro cancelamento de debate da Globo desde 2002.",
+      "categoria": "debate",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/tv-globo-cancela-debate-presidencial/" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/globo-cancela-debate-presidencial-pela-1a-vez-desde-2002/" },
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-desistem-e-globo-cancela-debate-presidencial/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-03-datafolha",
+      "data": "2026-10-03",
+      "hora": "18:45",
+      "titulo": "Véspera: Datafolha mostra Lula com 45% e Flávio com 42%",
+      "resumo": "Números de votos válidos no 1º turno. Com margem de erro de 2 pontos, é empate técnico.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Lula", "valor": "45%" },
+        { "rotulo": "Flávio Bolsonaro", "valor": "42%" },
+        { "rotulo": "Ronaldo Caiado", "valor": "4%" },
+        { "rotulo": "Renan Santos", "valor": "3%" },
+        { "rotulo": "Augusto Cury", "valor": "3%" }
+      ],
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-45-e-flavio-42-dos-votos-validos-no-1o-turno-diz-datafolha/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-03-atlas",
+      "data": "2026-10-03",
+      "hora": "22:00",
+      "titulo": "AtlasIntel: Lula 50,1% x Flávio 49,9% num 2º turno",
+      "resumo": "Votos válidos, com 4.945 entrevistas. A margem de erro é de 1 ponto.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Lula", "valor": "50,1%" },
+        { "rotulo": "Flávio Bolsonaro", "valor": "49,9%" }
+      ],
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/atlas-lula-tem-501-dos-votos-validos-no-2o-turno-flavio-499/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-03-frase-flavio-ultimo-ato",
+      "data": "2026-10-03",
+      "titulo": "Esse é o último ato na rua antes de vencer a eleição",
+      "resumo": "Fala durante moto-carreata na zona oeste do Rio, no encerramento da campanha do 1º turno.",
+      "categoria": "frase",
+      "autor": "Flávio Bolsonaro, no Rio",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-fecha-campanha-do-1o-turno-no-rio-e-diz-que-eleicao-ja-acabou/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-04-apuracao",
+      "data": "2026-10-04",
+      "titulo": "Flávio e Lula vão ao 2º turno",
+      "resumo": "Flávio teve 47,03% dos votos válidos e Lula, 45,16%. É a menor diferença num 1º turno desde a redemocratização.",
+      "categoria": "resultado",
+      "destaque": true,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro", "valor": "47,03%" },
+        { "rotulo": "Lula", "valor": "45,16%" },
+        { "rotulo": "Augusto Cury", "valor": "2,89%" },
+        { "rotulo": "Renan Santos", "valor": "2,24%" },
+        { "rotulo": "Ronaldo Caiado", "valor": "2,18%" }
+      ],
+      "fontes": [
+        { "veiculo": "TSE", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-tem-menor-diferenca-em-1o-turno-desde-redemocratizacao/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-05-apoios",
+      "data": "2026-10-05",
+      "titulo": "Zema apoia Flávio; Cury e Renan ficam neutros",
+      "resumo": "Romeu Zema disse que não podia ficar em cima do muro. Augusto Cury e Renan Santos não vão apoiar nenhum dos dois.",
+      "categoria": "agenda",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/quem-zema-cury-renan-e-caiado-apoiarao-no-segundo-turno-entenda/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-06-caiado-apoia-flavio",
+      "data": "2026-10-06",
+      "titulo": "Caiado anuncia apoio a Flávio no 2º turno",
+      "resumo": "O anúncio foi em Goiânia. O PSD, partido de Caiado, decidiu ficar neutro.",
+      "categoria": "agenda",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/ronaldo-caiado-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno/" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/psd-de-caiado-adota-neutralidade-e-libera-diretorios-em-2o-turno/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-06-frase-flavio-goiania",
+      "data": "2026-10-06",
+      "titulo": "A gente vai arregaçar com vagabundo",
+      "resumo": "Fala sobre segurança pública, logo depois de receber o apoio de Caiado.",
+      "categoria": "frase",
+      "autor": "Flávio Bolsonaro, em Goiânia",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/vamos-arregacar-com-vagabundo-diz-flavio-ao-lado-de-caiado/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-08-datafolha",
+      "data": "2026-10-08",
+      "titulo": "1º Datafolha do 2º turno: Flávio 52%, Lula 48%",
+      "resumo": "Votos válidos, com 2.520 entrevistas em 6 e 7 de outubro. A margem de erro é de 2 pontos.",
+      "categoria": "pesquisa",
+      "destaque": true,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro", "valor": "52%" },
+        { "rotulo": "Lula", "valor": "48%" }
+      ],
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-52-dos-votos-validos-lula-48/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-09-horario-2t",
+      "data": "2026-10-09",
+      "titulo": "Propaganda do 2º turno volta ao rádio e à TV",
+      "resumo": "Vai até 23 de outubro. O tempo é dividido igualmente entre os dois candidatos.",
+      "categoria": "agenda",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "TSE", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-16-dias-horario-eleitoral-gratuito-recomeca-nesta-sexta-feira-9" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-09-atlas",
+      "data": "2026-10-09",
+      "titulo": "AtlasIntel: Flávio 52,8% x Lula 47,2%",
+      "resumo": "Votos válidos no 2º turno. A margem de erro é de 1 ponto.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro", "valor": "52,8%" },
+        { "rotulo": "Lula", "valor": "47,2%" }
+      ],
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-tem-528-dos-votos-validos-no-2o-turno-lula-472/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-09-record-cancela-2t",
+      "data": "2026-10-09",
+      "titulo": "Record cancela debate do 2º turno marcado para domingo (11)",
+      "resumo": "A emissora citou incompatibilidade de agendas de Lula e Flávio.",
+      "categoria": "debate",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-13-tse-carrossel",
+      "data": "2026-10-13",
+      "titulo": "TSE mantém fora do ar post que ligava Flávio ao crime organizado",
+      "resumo": "A decisão foi unânime. O tribunal liberou republicar, em separado, peças sobre cobranças a Daniel Vorcaro.",
+      "categoria": "justica-eleitoral",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/tse-derruba-post-contra-flavio-mas-libera-peca-sobre-cobrancas-a-vorcaro/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-14-quaest",
+      "data": "2026-10-14",
+      "titulo": "Quaest: Flávio 46% x Lula 44% no 2º turno",
+      "resumo": "Votos totais, com 2.154 entrevistas. Nos votos válidos, fica 51,1% a 48,9%.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro", "valor": "46%" },
+        { "rotulo": "Lula", "valor": "44%" }
+      ],
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-46-e-lula-tem-44-no-2o-turno-diz-quaest/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-15-datafolha",
+      "data": "2026-10-15",
+      "titulo": "Datafolha: Flávio 51% x Lula 49%",
+      "resumo": "Votos válidos. Lula sobe um ponto e Flávio cai um em relação à pesquisa anterior.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro", "valor": "51%" },
+        { "rotulo": "Lula", "valor": "49%" }
+      ],
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-17-tse-mentiroso-master",
+      "data": "2026-10-17",
+      "titulo": "TSE mantém vídeo de Lula que chama Flávio de \"mentiroso Master\"",
+      "resumo": "A ministra Estela Aranha negou o pedido de Flávio. Para ela, o vídeo é crítica política e se apoia em reportagens.",
+      "categoria": "justica-eleitoral",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/tse-mantem-video-de-lula-que-chama-flavio-de-mentiroso-master/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-17-luchsinger",
+      "data": "2026-10-17",
+      "titulo": "Investigada pela PF, Roberta Luchsinger acusa Lula em entrevista",
+      "resumo": "Ela disse que Lula sabia de reuniões do filho Lulinha com ministros, sem apresentar provas. Lula disse que desconhece as acusações.",
+      "categoria": "polemica",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/lula-me-colocou-como-boi-de-piranha-diz-luchsinger-a-cnn/" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/lula-diz-que-desconhece-inteiramente-acusacoes-de-roberta-luchsinger/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-18-debate-band",
+      "data": "2026-10-18",
+      "hora": "20:00",
+      "titulo": "1º debate direto: Lula e Flávio trocam acusações na Band",
+      "resumo": "Vorcaro, Roberta Luchsinger, sigilo bancário e pandemia dominaram o debate. No YouTube, o pico foi de 5,39 milhões de aparelhos conectados.",
+      "categoria": "debate",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/os-7-embates-entre-flavio-e-lula-que-marcaram-o-debate-da-band/" },
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/debate-de-lula-e-flavio-na-band-chega-a-539-milhoes-simultaneos/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-18-frase-flavio-esconder",
+      "data": "2026-10-18",
+      "titulo": "Eu não tenho absolutamente nada a esconder.",
+      "resumo": "Resposta ao desafio de Lula para abrir contas bancárias e sigilos.",
+      "categoria": "frase",
+      "autor": "Flávio Bolsonaro, no debate da Band",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/os-7-embates-entre-flavio-e-lula-que-marcaram-o-debate-da-band/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-18-frase-lula-malandro",
+      "data": "2026-10-18",
+      "titulo": "Malandro carioca, que finge e mente descaradamente",
+      "resumo": "Lula sobre Flávio. Flávio respondeu se solidarizando com os moradores do Rio de Janeiro.",
+      "categoria": "frase",
+      "autor": "Lula, no debate da Band",
+      "destaque": true,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-diz-que-flavio-mente-e-e-carioca-malandro-em-debate-na-band/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-19-atlas",
+      "data": "2026-10-19",
+      "titulo": "AtlasIntel: Flávio 51,1% x Lula 48,9%",
+      "resumo": "Votos válidos, com 4.998 entrevistas de 13 a 18 de outubro. A diferença caiu em relação à pesquisa anterior.",
+      "categoria": "pesquisa",
+      "destaque": false,
+      "numeros": [
+        { "rotulo": "Flávio Bolsonaro", "valor": "51,1%" },
+        { "rotulo": "Lula", "valor": "48,9%" }
+      ],
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-511-dos-votos-validos-contra-489-de-lula-diz-atlasintel/" }
+      ],
+      "verificado": false
+    },
+    {
+      "id": "2026-10-20-lula-condiciona-globo",
+      "data": "2026-10-20",
+      "titulo": "Presidente da República não pode debater com ladrão",
+      "resumo": "Lula condicionou ir ao debate da Globo, marcado para sexta (23), a Flávio autorizar a quebra de seus sigilos.",
+      "categoria": "frase",
+      "autor": "Lula, sobre o debate da Globo",
+      "destaque": false,
+      "fontes": [
+        { "veiculo": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-condiciona-debate-na-globo-a-abertura-de-sigilo-de-flavio/" },
+        { "veiculo": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/aliados-fazem-atos-pelo-pais-e-flavio-e-lula-se-enfrentam-em-debate-na-tv/" }
+      ],
+      "verificado": false
+    }
+  ]
+}
